@@ -1,0 +1,31 @@
+---
+title: "Shield_badge Example"
+---
+
+## Basic Usage
+
+Using inline JSON:
+
+{{< shield_badge '{"label": "version", "message": "1.0.0", "color": "blue"}' >}}
+
+{{< shield_badge '{"label": "status", "message": "stable", "color": "green"}' >}}
+
+{{< shield_badge '{"label": "license", "message": "MIT", "color": "orange"}' >}}
+
+## Using Default Values
+
+When properties are omitted, defaults are used:
+
+{{< shield_badge '{"label": "custom"}' >}}
+
+## Spaces in Labels
+
+Spaces in labels and messages are automatically converted to underscores:
+
+{{< shield_badge '{"label": "pull requests", "message": "welcome here", "color": "purple"}' >}}
+
+## Using JSON Files
+
+You can also load badge configuration from JSON files:
+
+{{< shield_badge "badges/python_version.json" >}}
