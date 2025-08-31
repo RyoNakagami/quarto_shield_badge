@@ -5,7 +5,7 @@ This Quarto extension provides a convenient shortcode for adding [Shields.io](ht
 ## Installing
 
 ```bash
-quarto add RyoNak/quarto_shield_badge
+quarto add ryonakagami/quarto_shield_badge
 ```
 
 This will install the extension under the `_extensions` subdirectory.
@@ -51,8 +51,6 @@ Example output badges:
 [MIT License](./LICENSE)
 
 Copyright (c) 2024 [RyoNak](https://github.com/RyoNakagami)
-
-
 
 ## References
 
